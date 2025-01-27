@@ -1,0 +1,10 @@
+str1=input("enter a string")
+print("lower:"+str1.lower())
+print("upper:"+str1.upper())
+print('length'+str(len(str1)))
+ct=str1.count('the')
+print("no of 'the':"+str(ct))
+pun_mar=('!','?','.',',')
+print(f"end with punctuation mark:{str1.endswith(pun_mar)}")
+print("New string:"+str1.replace(" ","-"))
+
